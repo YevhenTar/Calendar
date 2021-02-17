@@ -1,18 +1,5 @@
 "use strict";
 
-class Participant {
-    constructor(name) {
-        this.name = name;
-    }
-}
-
-const membersList = [
-    new Participant("Mike"),
-    new Participant("Sara"),
-    new Participant("Albert"),
-    new Participant("Sebastian"),
-    new Participant("Alina"),
-];
 
 const weekDays = ["Mon", "Tue", "Wed", "Thu", "Fri"];
 const timeFrames = ["10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00", "18:00"];
