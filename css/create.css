@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 10px 22%;
+    font-size: 22px;
+}
+#confirm-btn, #cancel-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 2.3;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    margin-right: 20px;
+    width: 180px;
+    border-radius: 6px;
+}
+div{
+    margin: 40px 20px;
+}
+select, input{
+    font-size: 20px;
+}
+.button-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+form{
+    margin: 0 80px;
+}
+#participants-list{
+    margin-left: 59px;
+}
+#day-list{
+    margin-left: 125px;
+}
+#time-list{
+    margin-left: 117px;
+}

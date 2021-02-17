@@ -1,0 +1,94 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 10px 22%;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#select-list {
+    margin-left: auto;
+    margin-right: 10%;
+    border-color: grey;
+}
+
+#create-event {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 2.3;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+
+#select-list, #create-event {
+    width: 20%;
+    height: 38px;
+    border-radius: 6px 6px;
+}
+
+#confirm-btn, #cancel-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 2.3;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    border: 1px solid grey;
+    overflow: auto;
+    height: 35px;
+
+}
+
+th {
+    height: 35px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+}
+.del-btn {
+    background-color: lightgreen;
+    cursor: pointer;
+    border: 1px solid lightgreen ;
+    margin-top: 5px;
+}
+
+.event-cell{
+    background-color: lightgreen;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.event-box{
+    display: inline-block;
+    background-color: lightgreen;
+    word-break: break-word;
+    padding-left: 20px;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meeting calendar</title>
+    <link rel="stylesheet" href="css/create.css">
+</head>
+<body>
+<form action="">
+    <div>
+        <label for="event-name">Name of the event:</label>
+        <input type="text" name="name-field" id="event-name">
+    </div>
+    <div>
+        <label for="participants-list">Participants:</label>
+        <select name="members-field" id="participants-list" multiple>
+            <option value="Mike">Mike</option>
+            <option value="Sara">Sara</option>
+            <option value="Albert">Albert</option>
+            <option value="Sebastian">Sebastian</option>
+            <option value="Alina">Alina</option>
+        </select>
+    </div>
+    <div>
+        <label for="day-list">Day:</label>
+        <select name="day-field" id="day-list">
+            <option value="Mon">Monday</option>
+            <option value="Tue">Tuesday</option>
+            <option value="Wed">Wednesday</option>
+            <option value="Thu">Thursday</option>
+            <option value="Fri">Friday</option>
+        </select>
+    </div>
+    <div>
+        <label for="time-list">Time:</label>
+        <select name="time-field" id="time-list">
+            <option value="10:00">10:00</option>
+            <option value="11:00">11:00</option>
+            <option value="12:00">12:00</option>
+            <option value="13:00">13:00</option>
+            <option value="14:00">14:00</option>
+            <option value="15:00">15:00</option>
+            <option value="16:00">16:00</option>
+            <option value="17:00">17:00</option>
+            <option value="18:00">18:00</option>
+        </select>
+    </div>
+    <div class="button-box">
+        <a href="index.html" id="cancel-btn">Cancel</a>
+        <a href="index.html" id="confirm-btn">Create</a>
+    </div>
+</form>
+<script src="script/confirm.js" type="module"></script>
+</body>
+</html>
